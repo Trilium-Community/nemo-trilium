@@ -73,7 +73,7 @@ nemo-trilium config                  # print the path of the settings file
 
 ```nix
 {
-    inputs.nemo-trilium.url = "github:BeatLink/nemo-trilium";
+    inputs.nemo-trilium.url = "github:Trilium-Community/nemo-trilium";
 }
 ```
 
@@ -103,7 +103,7 @@ Needs Python 3, PyGObject with GTK 3, and optionally `python-markdown` for rende
 `libnotify` for the notifications.
 
 ```sh
-git clone https://github.com/BeatLink/nemo-trilium
+git clone https://github.com/Trilium-Community/nemo-trilium
 cd nemo-trilium
 mkdir -p ~/.local/bin ~/.local/share/nemo/actions
 ln -s "$PWD/nemo-trilium" ~/.local/bin/nemo-trilium

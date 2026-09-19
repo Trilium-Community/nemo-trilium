@@ -87,7 +87,7 @@ stdenvNoCC.mkDerivation {
             Text, Markdown and source files become editable notes, images become image notes and
             everything else is attached verbatim.
         '';
-        homepage = "https://github.com/BeatLink/nemo-trilium";
+        homepage = "https://github.com/Trilium-Community/nemo-trilium";
         license = lib.licenses.gpl3Plus;
         platforms = lib.platforms.linux;
         mainProgram = "nemo-trilium";
